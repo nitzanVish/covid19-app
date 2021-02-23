@@ -4,7 +4,7 @@ import router from '../router';
 
 //Define basic url
 const instance = axios.create({
-    baseURL: 'http://localhost:3000/',
+    baseURL: '/',
     //'http://a937c0c4c345.ngrok.io', 
     withCredentials: true
 });
