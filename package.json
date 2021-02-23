@@ -4,8 +4,8 @@
   "description": "",
   "main": "server/app.js",
   "scripts": {
-    "start": "cd vue && vue-cli-service build && cd ../ && nodemon app.js",
-    "build": "cd vue && vue-cli-service build" 
+    "start": "cd src && vue-cli-service build && cd ../ && nodemon app.js",
+    "build": "cd src && vue-cli-service build" 
   },
   "dependencies": {
     "axios": "^0.20.0",

@@ -1,0 +1,7 @@
+
+    body{
+        display: flex;
+    }
+    body, html {
+        height: 100%;
+    }
