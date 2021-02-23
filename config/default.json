@@ -1,0 +1,8 @@
+{
+    "app-key": "myprivatekey",
+
+    "db": {
+        "user": "nitzan",
+        "pwd":"gibor1988"
+    }
+}
