@@ -5,7 +5,6 @@ import router from '../router';
 //Define basic url
 const instance = axios.create({
     baseURL: '/',
-    //'http://a937c0c4c345.ngrok.io', 
     withCredentials: true
 });
 //Navigation to error page in case of error

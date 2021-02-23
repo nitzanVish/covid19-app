@@ -34,7 +34,7 @@ db.getDbConnection().catch(error => {
 // Allow Origins Middleware
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:8080',
+    origin: '*',
 }));
 
 
@@ -43,7 +43,7 @@ app.use(cookieParser());
 
 
 //  Set Public Directory
-app.use( express.static('./vue/dist/') );
+app.use( express.static('./src/dist/') );
 
 //  Auth Middleware
 app.use(auth);
